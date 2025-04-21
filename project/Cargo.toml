@@ -1,0 +1,15 @@
+[workspace]
+
+members = [
+    "crates/my_bin",
+    "crates/my_buildrs",
+]
+
+[workspace.dependencies]
+my_buildrs = { path = "crates/my_buildrs" }
+proc-macro2 = "1.0"
+thiserror = "2.0"
+
+# Local patches - typically git references
+[patch.crates-io]
+thiserror = { git = "https://github.com/dtolnay/thiserror" }
