@@ -1,6 +1,6 @@
 # reindeer-local-buildrs-issue-demo
 
-This is a demo repository related to the issue
+This is the demo repository related to the facebook/buck2#914 and facebookincubator/reindeer#65
 
 Created for verifying whether build scripts for local crates behave correctly
 
